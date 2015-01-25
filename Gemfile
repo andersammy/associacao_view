@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 # Heroku
 gem 'rails_12factor', group: :production
 gem 'pg', group: :production
+gem 'unicorn', group: :production
 
 gem 'therubyracer'
 gem "paperclip", "~> 4.2"
